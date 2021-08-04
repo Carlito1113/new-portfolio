@@ -1,0 +1,64 @@
+@import '../../scss/main.scss';
+
+.h1test {
+  text-align: center;
+  color: $accent-dark;
+}
+
+.work {
+  height: 100vh;
+  background-color: $primary-dark;
+  border-top: .15rem solid $primary-light;
+  position: relative;
+
+  &__image {
+    width: 20%;
+    box-shadow: 0 1.5rem 4rem rgba($accent-dark, .4);
+    border-radius: .2rem;
+    position: absolute;
+    z-index: 10;
+    transition: all .2s;
+    outline-offset: 2rem;
+    
+    &--p1 {
+      left: 5%;
+      top: 10rem;
+    }
+
+    &--p2 {
+      left: 15%;
+      top: 20rem;
+    }
+
+    &--p3 {
+      left: 25%;
+      top: 30rem;
+    }
+
+    &--p4 {
+      left: 70%;
+      top: 10rem;
+    }
+
+    &--p5 {
+      left: 60%;
+      top: 20rem;
+    }
+
+    &--p6 {
+      left: 75%;
+      top: 27rem;
+    }
+
+    // &:hover {
+    //   outline: 1.5rem solid $primary-light;
+    //   transform: scale(1.05) translateY(-.5rem);
+    //   box-shadow: 0 2.5rem 4rem rgba($accent-light, .5);
+    //   z-index: 10;
+    // }
+  }
+
+  &:hover &__image:not(:hover) {
+    transform: scale(.95);
+  }
+}
