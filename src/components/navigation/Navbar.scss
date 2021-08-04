@@ -1,0 +1,23 @@
+@import '../../scss/main.scss';
+
+.navbar {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  background-color: $primary-dark;
+  color: $accent-light;
+  height: 8vh;
+  font-size: 1.6rem;
+
+  &__logo {
+    margin-right: auto;
+    background-color: $accent-dark;
+    color: $primary-dark;
+    padding: .5rem;
+    border-radius: 1rem;
+  }
+
+  &__item {
+    margin: 0 2rem;
+  }
+}
