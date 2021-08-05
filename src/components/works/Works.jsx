@@ -5,7 +5,7 @@ import bubbles from '../../assets/img/bubbles.jpeg';
 export default function Works() {
   return (
     <div>
-      <h1 className='h1test'>My Work</h1>
+      {/* <h1 className='h1test'>My Work</h1> */}
 
       <div className="work">
         <h1 className='h1test2'>My Work</h1>
