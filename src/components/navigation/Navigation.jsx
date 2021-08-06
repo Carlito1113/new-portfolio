@@ -7,7 +7,7 @@ export default function Navigation( {navOpen ,setNavOpen} ) {
       <input type="button" onClick={() => {setNavOpen(!navOpen)}} className="navigation__checkbox" id="nav-toggle" />
 
       <label htmlFor="nav-toggle" className="navigation__button" id="nav-label">
-        <span className="navigation__icon">&nbsp;</span>
+        <span className={"navigation__icon " + (navOpen && 'active--icon')}>&nbsp;</span>
       </label>
 
       <div className={"navigation__background " + (navOpen && 'active') }>&nbsp;</div>
