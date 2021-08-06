@@ -9,8 +9,7 @@ import expensetracker from '../../assets/img/expensetracker.png';
 
 export default function Works() {
   return (
-    <div>
-      <div className="work">
+      <div className="work" id='portfolio'>
         <h1 className="work__header">My Work</h1>
         <a
           href="https://recipebook-2096c.web.app/"
@@ -79,6 +78,5 @@ export default function Works() {
           />
         </a>
       </div>
-    </div>
   );
 }
