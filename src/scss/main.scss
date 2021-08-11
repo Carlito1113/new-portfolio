@@ -1,2 +1,10 @@
 @import './abstracts/variables';
 @import './base/animations';
+
+$width: 76.8rem;
+
+@mixin mobile {
+  @media (max-width: #{$width}) {
+    @content
+  }
+}
