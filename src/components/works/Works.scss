@@ -1,155 +1,89 @@
 @import '../../scss/main.scss';
 
-// .work {
-//   height: 100vh;
-//   background-color: $primary-dark;
-//   border-top: 0.15rem solid $primary-light;
-//   position: relative;
-
-//   &__header {
-//     color: $primary-dark;
-//     text-align: center;
-//     margin-top: 1rem;
-//     font-size: 5rem;
-//     font-weight: 500;
-//     background-color: $accent-dark;
-//     width: 20%;
-//     display: flex;
-//     justify-content: center;
-//     flex: wrap;
-//   }
-
-//   &__image {
-//     width: 25%;
-//     border-radius: 0.2rem;
-//     position: absolute;
-//     z-index: 5;
-//     transition: all 0.2s;
-//     outline-offset: 0.5rem;
-//     cursor: pointer;
-
-//     &--p1 {
-//       left: 40%;
-//       top: 4rem;
-//       z-index: 5;
-//     }
-
-//     &--p2 {
-//       left: 25%;
-//       top: 22rem;
-//       z-index: 10;
-//     }
-
-//     &--p3 {
-//       left: 52.5%;
-//       top: 22rem;
-//       z-index: 3;
-//     }
-
-//     &--p4 {
-//       left: 10%;
-//       top: 40rem;
-//       z-index: 20;
-//     }
-
-//     &--p5 {
-//       left: 40%;
-//       top: 40rem;
-//       z-index: 25;
-//     }
-
-//     &--p6 {
-//       left: 70%;
-//       top: 40rem;
-//       z-index: 30;
-//     }
-
-//     &:hover {
-//       outline: 0.5rem solid $accent-dark;
-//       transform: scale(1.05) translateY(-0.5rem);
-//       z-index: 100;
-//     }
-//   }
-
-//   span {
-//     display: block;
-//   }
-// }
-
-.works {
-  // height: 100vh;
-  position: relative;
+.work {
+  height: 100vh;
+  background-color: $primary-dark;
   border-top: 0.15rem solid $primary-light;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  background: $primary-dark;
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  min-height: 100vh;
-}
-
-.portfolio {
   position: relative;
-  max-width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(1fr, 1fr));
-  grid-template-rows: minmax(1fr, auto);
-  margin: 4rem;
-  grid-auto-flow: dense;
-  grid-gap: 1rem;
 
-  &__project {
-    background: $primary-medium;
-    padding: 2rem;
-    display: grid;
-    font-size: 2rem;
-    place-items: center;
+  &__header {
+    color: $primary-dark;
     text-align: center;
-    color: #fff;
-    transition: 0.5s;
+    margin-top: 1rem;
+    font-size: 5rem;
+    font-weight: 500;
+    background-color: $accent-dark;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    flex: wrap;
+  }
+
+  &__image {
+    width: 25%;
+    border-radius: 0.2rem;
+    position: absolute;
+    z-index: 5;
+    transition: all 0.2s;
+    outline-offset: 0.5rem;
+    cursor: pointer;
+
+    &--p1 {
+      left: 40%;
+      top: 4rem;
+      z-index: 5;
+    }
+
+    &--p2 {
+      left: 25%;
+      top: 22rem;
+      z-index: 10;
+    }
+
+    &--p3 {
+      left: 52.5%;
+      top: 22rem;
+      z-index: 3;
+    }
+
+    &--p4 {
+      left: 10%;
+      top: 40rem;
+      z-index: 20;
+    }
+
+    &--p5 {
+      left: 40%;
+      top: 40rem;
+      z-index: 25;
+    }
+
+    &--p6 {
+      left: 70%;
+      top: 40rem;
+      z-index: 30;
+    }
 
     &:hover {
-      background: $accent-dark;
+      outline: 0.5rem solid $accent-dark;
+      transform: scale(1.05) translateY(-0.5rem);
+      z-index: 100;
     }
+  }
 
-    &--image {
-      position: relative;
-      max-width: 25rem;
-      margin-bottom: 1rem;
-    }
-
-    &:nth-child(1) {
-      grid-column: span  2;
-      grid-row: span  1;
-    }
-
-    &:nth-child(2) {
-      grid-column: span 1;
-      grid-row: span 3;
-    }
-
-    &:nth-child(4) {
-      grid-column: span 1;
-      grid-row: span 2;
-    }
-
-    &:nth-child(5) {
-      grid-column: span 3;
-      grid-row: span 2;
-    }
+  span {
+    display: block;
   }
 }
 
 @include mobile {
-  .portfolio {
-    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
-    grid-template-rows: minmax(auto, auto);
+  .work {
 
-    &__project {
-      grid-column: unset !important;
-      grid-row: unset !important;
+    &__image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
     }
   }
 }
