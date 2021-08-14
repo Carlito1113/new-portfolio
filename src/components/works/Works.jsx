@@ -79,11 +79,15 @@ export default function Works() {
     //     </a>
     // </div>
 
-    <div className="works">
+    <div className="works" id='portfolio'>
       <div className="portfolio">
         <div className="portfolio__project">
           <div className="portfolio__project--box">
-            <a href="https://recipebook-2096c.web.app/" target='_blank' rel='noreferrer'>
+            <a
+              href="https://recipebook-2096c.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={recipebook}
                 alt="recipe app"
@@ -95,7 +99,11 @@ export default function Works() {
         </div>
         <div className="portfolio__project">
           <div className="portfolio__project--box">
-            <a href="https://recipebook-2096c.web.app/" target='_blank' rel='noreferrer'>
+            <a
+              href="https://recipebook-2096c.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={recommend}
                 alt="recipe app"
@@ -107,7 +115,11 @@ export default function Works() {
         </div>
         <div className="portfolio__project">
           <div className="portfolio__project--box">
-            <a href="https://recipebook-2096c.web.app/" target='_blank' rel='noreferrer'>
+            <a
+              href="https://recipebook-2096c.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={audiophyle}
                 alt="recipe app"
@@ -119,7 +131,11 @@ export default function Works() {
         </div>
         <div className="portfolio__project">
           <div className="portfolio__project--box">
-            <a href="https://recipebook-2096c.web.app/" target='_blank' rel='noreferrer'>
+            <a
+              href="https://recipebook-2096c.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={wineanddines}
                 alt="recipe app"
@@ -131,7 +147,11 @@ export default function Works() {
         </div>
         <div className="portfolio__project">
           <div className="portfolio__project--box">
-            <a href="https://recipebook-2096c.web.app/" target='_blank' rel='noreferrer'>
+            <a
+              href="https://recipebook-2096c.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={fitnesstracker}
                 alt="recipe app"
@@ -143,7 +163,11 @@ export default function Works() {
         </div>
         <div className="portfolio__project">
           <div className="portfolio__project--box">
-            <a href="https://recipebook-2096c.web.app/" target='_blank' rel='noreferrer'>
+            <a
+              href="https://recipebook-2096c.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={expensetracker}
                 alt="recipe app"
