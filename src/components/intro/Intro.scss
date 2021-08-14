@@ -12,8 +12,8 @@
 
   &__left {
     flex: 0.5;
-    // position: relative;
-    overflow: hidden;
+    position: relative;
+    // overflow: hidden;
   }
 
   &__right {
@@ -27,8 +27,8 @@
   }
 
   &__image-container {
-    width: 700px;
-    height: 700px;
+    width: 70rem;
+    height: 70rem;
     background-color: $accent-dark;
     border-radius: 50%;
     display: flex;
