@@ -12,11 +12,9 @@ function App() {
     <div className="App">
       <Navbar />
       <Navigation navOpen={navOpen} setNavOpen={setNavOpen} />
-      {/* <div className="sections"> */}
-        <Intro id="intro" />
-        <Works id="works" />
-        <Contact id="contact" />
-      {/* </div> */}
+        <Intro />
+        <Works />
+        <Contact />
     </div>
   );
 }
