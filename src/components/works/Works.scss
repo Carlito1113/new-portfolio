@@ -60,6 +60,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 8rem;
 
     @include mobile {
       width: 100%;
