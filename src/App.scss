@@ -8,9 +8,8 @@
 
   .sections {
     width: 100%;
-    // height: calc(100vh - 7rem);
-    height: 100vh;
     background-color: lightsalmon;
+    height: 100vh;
     position: relative;
     top: 7rem;
     scroll-behavior: smooth;
@@ -22,7 +21,6 @@
 
     > * {
       width: 100vw;
-      // height: calc(100vh - 7rem);
       height: 100vh;
       scroll-snap-align: start;
     }
