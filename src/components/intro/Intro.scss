@@ -2,7 +2,6 @@
 
 .intro {
   background-color: $primary-dark;
-  height: 92vh;
   display: flex;
 
   @include mobile {
@@ -11,13 +10,13 @@
   }
 
   &__left {
-    flex: 0.5;
+    flex: 0.3;
     position: relative;
   }
 
   &__right {
-    flex: 0.5;
-    position: relative;
+    flex: 0.8;
+    overflow: hidden;
 
     @include mobile {
       overflow: hidden;

@@ -1,13 +1,15 @@
 @import '../../scss/main.scss';
 
 .navbar {
+  width: 100%;
   display: flex;
   align-items: center;
   font-weight: 500;
   background-color: $primary-dark;
   color: $accent-light;
-  height: 8vh;
   font-size: 1.6rem;
+  position: absolute;
+  height: 7rem;
 
   &__logo {
     margin-right: auto;
@@ -16,12 +18,4 @@
     margin-left: .4rem;
     padding: .5rem;
   }
-
-  &__item {
-    margin: 0 2rem;
-  }
-
-  // &__icon {
-  //   justify-content: space-between;
-  // }
 }

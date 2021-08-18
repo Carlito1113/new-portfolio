@@ -9,74 +9,85 @@ import expensetracker from '../../assets/img/expensetracker.png';
 
 export default function Works() {
   return (
-    <div className="work" id="portfolio">
-      <h1 className="work__header">My Work</h1>
-        <a
-          href="https://recipebook-2096c.web.app/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            src={recipebook}
-            alt="recipebook app"
-            className="work__image work__image--p1"
-          />
-        </a>
-        <a
-          href="https://recom-mend.herokuapp.com"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            src={recommend}
-            alt="recommend app"
-            className="work__image work__image--p2"
-          />
-        </a>
-        <a
-          href="https://audiophyle-music-platform.herokuapp.com/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            src={audiophyle}
-            alt="audiophyle app"
-            className="work__image work__image--p3"
-          />
-        </a>
-        <a
-          href="https://andrewrb22.github.io/-.theFederationOfCoders-/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            src={wineanddines}
-            alt="wine and dines app"
-            className="work__image work__image--p4"
-          />
-        </a>
-        <a
-          href="https://infinite-journey-49679.herokuapp.com/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            src={fitnesstracker}
-            alt="fitness tracker app"
-            className="work__image work__image--p5"
-          />
-        </a>
-        <a
-          href="https://damp-falls-85688.herokuapp.com/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            src={expensetracker}
-            alt="expense tracker app"
-            className="work__image work__image--p6"
-          />
-        </a>
+    <div className="portfolio" id="portfolio">
+      <h1 className='header'>My Work</h1>
+
+      <div className="container">
+        <div className="item">
+          <img src={recommend} alt="Recommend book app" />
+
+          <h3>
+            <a
+              href="https://recom-mend.herokuapp.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Recommend
+            </a>
+          </h3>
+        </div>
+
+        <div className="item">
+          <img src={recipebook} alt="recipe app" />
+          <h3>
+            <a
+              href="https://recipebook-2096c.web.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Recipe Book
+            </a>
+          </h3>
+        </div>
+        <div className="item">
+          <img src={audiophyle} alt="Audiophyle music app" />
+          <h3>
+            <a
+              href="https://audiophyle-music-platform.herokuapp.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Audiophyle
+            </a>
+          </h3>
+        </div>
+        <div className="item">
+          <img src={wineanddines} alt="Food and Wine pairing app" />
+          <h3>
+            <a
+              href="https://andrewrb22.github.io/-.theFederationOfCoders-/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Wine&Dines
+            </a>
+          </h3>
+        </div>
+        <div className="item">
+          <img src={fitnesstracker} alt="Fitness Logging application" />
+          <h3>
+            <a
+              href="https://infinite-journey-49679.herokuapp.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Fitness Logger
+            </a>
+          </h3>
+        </div>
+        <div className="item">
+          <img src={expensetracker} alt="Expense Tracking Application" />
+          <h3>
+            <a
+              href="https://damp-falls-85688.herokuapp.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Expense Tracker
+            </a>
+          </h3>
+        </div>
+      </div>
     </div>
   );
 }
