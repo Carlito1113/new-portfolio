@@ -1,14 +1,16 @@
+@import './scss/main.scss';
+
 .App {
   height: 100vh;
   overflow-x: hidden;
-    scrollbar-width: none; // for firefox
-    &::-webkit-scrollbar {
-      display: none; // for chrome/safari/edge
-    } 
+  scrollbar-width: none; // for firefox
+  &::-webkit-scrollbar {
+    display: none; // for chrome/safari/edge
+  }
 
   .sections {
     width: 100%;
-    background-color: lightsalmon;
+    background-color: $primary-dark;
     height: 100vh;
     position: relative;
     top: 7rem;

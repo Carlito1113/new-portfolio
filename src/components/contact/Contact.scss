@@ -5,6 +5,10 @@
   border-top: 1px solid $accent-light;
   display: flex;
 
+  @include mobile {
+    flex-direction: column;
+  }
+
   .left {
     flex: 1;
     overflow: hidden;
@@ -38,12 +42,22 @@
         width: 30rem;
         height: 3rem;
         font-size: 1.4rem;
+
+        @include mobile {
+          width: 20rem;
+          height: 2rem;
+        }
       }
 
       textarea {
         width: 30rem;
         height: 20rem;
         font-size: 1.4rem;
+
+        @include mobile {
+          width: 20rem;
+          height: 10rem;
+        }
       }
 
       button {
@@ -55,6 +69,15 @@
         border-radius: 1rem;
         font-weight: 500;
         cursor: pointer;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      span {
+        color: $accent-light;
+        font-size: 1.6rem;
       }
     }
   }

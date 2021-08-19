@@ -80,6 +80,11 @@
       position: relative;
       transition: all 1s ease;
 
+      a:visited {
+        text-decoration: none;
+        color: $accent-dark;
+      }
+
       @include mobile {
         width: 13rem;
         height: 12rem;
