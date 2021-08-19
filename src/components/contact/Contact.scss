@@ -2,6 +2,60 @@
 
 .contact {
   background-color: $primary-dark;
-  border-top: 1px solid $primary-light;
-  // position: relative;
+  border-top: 1px solid $accent-light;
+  display: flex;
+
+  .left {
+    flex: 1;
+    overflow: hidden;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+      font-size: 3rem;
+      color: $accent-dark;
+    }
+
+    form {
+      width: 70%;
+      height: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+
+      input {
+        width: 30rem;
+        height: 3rem;
+        font-size: 1.4rem;
+      }
+
+      textarea {
+        width: 30rem;
+        height: 20rem;
+        font-size: 1.4rem;
+      }
+
+      button {
+        width: 15rem;
+        height: 3rem;
+        color: $primary-light;
+        background-color: $accent-dark;
+        border: none;
+        border-radius: 1rem;
+        font-weight: 500;
+        cursor: pointer;
+      }
+    }
+  }
 }
