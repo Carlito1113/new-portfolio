@@ -12,10 +12,30 @@
   height: 7rem;
 
   &__logo {
-    margin-right: auto;
     background-color: $accent-dark;
     color: $primary-dark;
-    margin-left: .4rem;
-    padding: .5rem;
+    margin-left: 0.4rem;
+    padding: 1rem;
+  }
+
+  .itemContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+
+    @include mobile {
+      display: none;
+    }
+
+    .icon {
+      font-size: 1.8rem;
+      margin-right: .5rem;
+      color: $accent-dark;
+    }
+
+    span {
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
   }
 }
