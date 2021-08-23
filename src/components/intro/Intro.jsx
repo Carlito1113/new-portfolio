@@ -4,12 +4,12 @@ import circleguitar from '../../assets/img/circleguitarpic.png';
 
 export default function Intro() {
   return (
-    <div className="intro">
+    <div className="intro" id="intro">
       <div className="intro__left">
         <div className="intro__heading">
           <h2>Hello, I'm</h2>
-          <h1 className='intro__heading--primary'>Carlito Algarin</h1>
-          <h3 className='intro__heading--sub'>Front-end Developer</h3>
+          <h1 className="intro__heading--primary">Carlito Algarin</h1>
+          <h3 className="intro__heading--sub">Front-end Developer</h3>
         </div>
       </div>
       <div className="intro__right">

@@ -5,8 +5,8 @@ import MailIcon from '@material-ui/icons/Mail';
 
 export default function Navbar() {
   return (
-    <nav className='navbar' id="intro">
-        <h2 className="navbar__logo">{`{C.A}`}</h2>
+    <nav className="navbar">
+      <h2 className="navbar__logo">{`{C.A}`}</h2>
       <div className="itemContainer">
         <PersonIcon className="icon" />
         <span>+727 331 0237</span>
