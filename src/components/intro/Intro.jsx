@@ -9,7 +9,7 @@ export default function Intro() {
         <div className="intro__heading">
           <h2>Hello, I'm</h2>
           <h1 className="intro__heading--primary">Carlito Algarin</h1>
-          <h3 className="intro__heading--sub">Front-end Developer</h3>
+          <h3 className="intro__heading--sub">Full Stack Developer</h3>
         </div>
       </div>
       <div className="intro__right">
